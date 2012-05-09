@@ -101,10 +101,11 @@
 - (IBAction)clearPressed 
 {
     [self.brain clear];
-    self.historyContent = @"";
     self.history.text = self.historyContent;
     self.userEntering = NO;
     self.display.text = @"0";
+    self.variblesDisplay.text = @"";
+    self.testVaribleValues = nil;
 }
 
 - (IBAction)backspacePressed 

@@ -101,6 +101,8 @@
     self.history.text = @"";
     self.userEntering = NO;
     self.display.text = @"0";
+    self.variblesDisplay.text = @"";
+    self.testVaribleValues = nil;
 }
 
 
