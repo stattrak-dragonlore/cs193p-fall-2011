@@ -57,6 +57,8 @@
         result = cos([self popOperand]);
     } else if ([operation isEqualToString:@"pi"]) {
         result = acos(0) * 2;
+    } else if ([operation isEqualToString:@"e"]) {
+        result = M_E;
     } else if ([operation isEqualToString:@"sqrt"]) {
         result = sqrt([self popOperand]);
     } else if ([operation isEqualToString:@"log"]) {
