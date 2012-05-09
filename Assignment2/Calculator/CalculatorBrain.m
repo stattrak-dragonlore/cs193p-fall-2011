@@ -11,9 +11,6 @@
 
 @interface CalculatorBrain()
 @property (nonatomic, strong) NSMutableArray *programStack;
-
-//+ (BOOL)isOperation:(id)element;
-//+ (BOOL)isVarible:(id)element;
 @end
 
 @implementation CalculatorBrain
