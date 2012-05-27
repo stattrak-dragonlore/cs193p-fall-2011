@@ -93,7 +93,8 @@
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:CellIdentifier];
     }
     
-    NSDictionary *photo = [self.recentPhotos objectAtIndex:indexPath.row];
+    //most recent on top
+    NSDictionary *photo = [self.recentPhotos objectAtIndex:(self.recentPhotos.count -  indexPath.row - 1)];
     NSString *title = [photo objectForKey:@"title"];
     NSString *desription = [[photo objectForKey:@"description"] objectForKey:@"_content"];
     
