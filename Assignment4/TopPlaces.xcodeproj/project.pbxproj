@@ -1,0 +1,308 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4A0353D61571ED1300AD8115 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A0353D51571ED1300AD8115 /* UIKit.framework */; };
+		4A0353D81571ED1300AD8115 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A0353D71571ED1300AD8115 /* Foundation.framework */; };
+		4A0353DA1571ED1300AD8115 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A0353D91571ED1300AD8115 /* CoreGraphics.framework */; };
+		4A0353E01571ED1300AD8115 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4A0353DE1571ED1300AD8115 /* InfoPlist.strings */; };
+		4A0353E21571ED1300AD8115 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A0353E11571ED1300AD8115 /* main.m */; };
+		4A0353E61571ED1300AD8115 /* TopPlacesAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A0353E51571ED1300AD8115 /* TopPlacesAppDelegate.m */; };
+		4A0353E91571ED1300AD8115 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A0353E71571ED1300AD8115 /* MainStoryboard.storyboard */; };
+		4A0353F51571EDB400AD8115 /* FlickrFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A0353F41571EDB400AD8115 /* FlickrFetcher.m */; };
+		4A0353F81571F6D900AD8115 /* TopPlacesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A0353F71571F6D900AD8115 /* TopPlacesTableViewController.m */; };
+		4A0353FB15720BC600AD8115 /* CityTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A0353FA15720BC600AD8115 /* CityTableViewController.m */; };
+		4A0354361572331100AD8115 /* PhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A0354351572331100AD8115 /* PhotoViewController.m */; };
+		4A03543915726A6500AD8115 /* RecentPhotosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A03543815726A6500AD8115 /* RecentPhotosViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4A0353D11571ED1300AD8115 /* TopPlaces.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TopPlaces.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A0353D51571ED1300AD8115 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4A0353D71571ED1300AD8115 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4A0353D91571ED1300AD8115 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4A0353DD1571ED1300AD8115 /* TopPlaces-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TopPlaces-Info.plist"; sourceTree = "<group>"; };
+		4A0353DF1571ED1300AD8115 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4A0353E11571ED1300AD8115 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4A0353E31571ED1300AD8115 /* TopPlaces-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TopPlaces-Prefix.pch"; sourceTree = "<group>"; };
+		4A0353E41571ED1300AD8115 /* TopPlacesAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TopPlacesAppDelegate.h; sourceTree = "<group>"; };
+		4A0353E51571ED1300AD8115 /* TopPlacesAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TopPlacesAppDelegate.m; sourceTree = "<group>"; };
+		4A0353E81571ED1300AD8115 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		4A0353F21571EDB400AD8115 /* FlickrAPIKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlickrAPIKey.h; sourceTree = "<group>"; };
+		4A0353F31571EDB400AD8115 /* FlickrFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlickrFetcher.h; sourceTree = "<group>"; };
+		4A0353F41571EDB400AD8115 /* FlickrFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlickrFetcher.m; sourceTree = "<group>"; };
+		4A0353F61571F6D900AD8115 /* TopPlacesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopPlacesTableViewController.h; sourceTree = "<group>"; };
+		4A0353F71571F6D900AD8115 /* TopPlacesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopPlacesTableViewController.m; sourceTree = "<group>"; };
+		4A0353F915720BC600AD8115 /* CityTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CityTableViewController.h; sourceTree = "<group>"; };
+		4A0353FA15720BC600AD8115 /* CityTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CityTableViewController.m; sourceTree = "<group>"; };
+		4A0354341572331100AD8115 /* PhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoViewController.h; sourceTree = "<group>"; };
+		4A0354351572331100AD8115 /* PhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoViewController.m; sourceTree = "<group>"; };
+		4A03543715726A6500AD8115 /* RecentPhotosViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecentPhotosViewController.h; sourceTree = "<group>"; };
+		4A03543815726A6500AD8115 /* RecentPhotosViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecentPhotosViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4A0353CE1571ED1300AD8115 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A0353D61571ED1300AD8115 /* UIKit.framework in Frameworks */,
+				4A0353D81571ED1300AD8115 /* Foundation.framework in Frameworks */,
+				4A0353DA1571ED1300AD8115 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4A0353C61571ED1300AD8115 = {
+			isa = PBXGroup;
+			children = (
+				4A0353DB1571ED1300AD8115 /* TopPlaces */,
+				4A0353D41571ED1300AD8115 /* Frameworks */,
+				4A0353D21571ED1300AD8115 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4A0353D21571ED1300AD8115 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4A0353D11571ED1300AD8115 /* TopPlaces.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4A0353D41571ED1300AD8115 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4A0353D51571ED1300AD8115 /* UIKit.framework */,
+				4A0353D71571ED1300AD8115 /* Foundation.framework */,
+				4A0353D91571ED1300AD8115 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4A0353DB1571ED1300AD8115 /* TopPlaces */ = {
+			isa = PBXGroup;
+			children = (
+				4A0353E41571ED1300AD8115 /* TopPlacesAppDelegate.h */,
+				4A0354341572331100AD8115 /* PhotoViewController.h */,
+				4A0354351572331100AD8115 /* PhotoViewController.m */,
+				4A03543715726A6500AD8115 /* RecentPhotosViewController.h */,
+				4A03543815726A6500AD8115 /* RecentPhotosViewController.m */,
+				4A0353E51571ED1300AD8115 /* TopPlacesAppDelegate.m */,
+				4A0353E71571ED1300AD8115 /* MainStoryboard.storyboard */,
+				4A0353F915720BC600AD8115 /* CityTableViewController.h */,
+				4A0353FA15720BC600AD8115 /* CityTableViewController.m */,
+				4A0353F61571F6D900AD8115 /* TopPlacesTableViewController.h */,
+				4A0353F71571F6D900AD8115 /* TopPlacesTableViewController.m */,
+				4A0353F21571EDB400AD8115 /* FlickrAPIKey.h */,
+				4A0353F31571EDB400AD8115 /* FlickrFetcher.h */,
+				4A0353F41571EDB400AD8115 /* FlickrFetcher.m */,
+				4A0353DC1571ED1300AD8115 /* Supporting Files */,
+			);
+			path = TopPlaces;
+			sourceTree = "<group>";
+		};
+		4A0353DC1571ED1300AD8115 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4A0353DD1571ED1300AD8115 /* TopPlaces-Info.plist */,
+				4A0353DE1571ED1300AD8115 /* InfoPlist.strings */,
+				4A0353E11571ED1300AD8115 /* main.m */,
+				4A0353E31571ED1300AD8115 /* TopPlaces-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4A0353D01571ED1300AD8115 /* TopPlaces */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A0353EF1571ED1300AD8115 /* Build configuration list for PBXNativeTarget "TopPlaces" */;
+			buildPhases = (
+				4A0353CD1571ED1300AD8115 /* Sources */,
+				4A0353CE1571ED1300AD8115 /* Frameworks */,
+				4A0353CF1571ED1300AD8115 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TopPlaces;
+			productName = TopPlaces;
+			productReference = 4A0353D11571ED1300AD8115 /* TopPlaces.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4A0353C81571ED1300AD8115 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TopPlaces;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 4A0353CB1571ED1300AD8115 /* Build configuration list for PBXProject "TopPlaces" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4A0353C61571ED1300AD8115;
+			productRefGroup = 4A0353D21571ED1300AD8115 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4A0353D01571ED1300AD8115 /* TopPlaces */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4A0353CF1571ED1300AD8115 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A0353E01571ED1300AD8115 /* InfoPlist.strings in Resources */,
+				4A0353E91571ED1300AD8115 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4A0353CD1571ED1300AD8115 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A0353E21571ED1300AD8115 /* main.m in Sources */,
+				4A0353E61571ED1300AD8115 /* TopPlacesAppDelegate.m in Sources */,
+				4A0353F51571EDB400AD8115 /* FlickrFetcher.m in Sources */,
+				4A0353F81571F6D900AD8115 /* TopPlacesTableViewController.m in Sources */,
+				4A0353FB15720BC600AD8115 /* CityTableViewController.m in Sources */,
+				4A0354361572331100AD8115 /* PhotoViewController.m in Sources */,
+				4A03543915726A6500AD8115 /* RecentPhotosViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4A0353DE1571ED1300AD8115 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A0353DF1571ED1300AD8115 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4A0353E71571ED1300AD8115 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A0353E81571ED1300AD8115 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4A0353ED1571ED1300AD8115 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4A0353EE1571ED1300AD8115 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4A0353F01571ED1300AD8115 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TopPlaces/TopPlaces-Prefix.pch";
+				INFOPLIST_FILE = "TopPlaces/TopPlaces-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4A0353F11571ED1300AD8115 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TopPlaces/TopPlaces-Prefix.pch";
+				INFOPLIST_FILE = "TopPlaces/TopPlaces-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4A0353CB1571ED1300AD8115 /* Build configuration list for PBXProject "TopPlaces" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A0353ED1571ED1300AD8115 /* Debug */,
+				4A0353EE1571ED1300AD8115 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A0353EF1571ED1300AD8115 /* Build configuration list for PBXNativeTarget "TopPlaces" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A0353F01571ED1300AD8115 /* Debug */,
+				4A0353F11571ED1300AD8115 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4A0353C81571ED1300AD8115 /* Project object */;
+}
